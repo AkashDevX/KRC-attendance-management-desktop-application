@@ -1,0 +1,95 @@
+﻿<Window x:Class="KRC.Existingsess"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KRC"
+        mc:Ignorable="d"
+        Title="Existingsess" Background="#FF5C99D6" ResizeMode="NoResize"
+         WindowStyle="None" Height="600" Width="1080" WindowStartupLocation="CenterScreen"  WindowState="Maximized" Icon="Icons/KRC.ico"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"  
+        >
+    <Grid Loaded="Grid_Loaded" >
+        <StackPanel Margin="0,0,0,0" Orientation="Horizontal">
+            <Label Content="Service Name :" Style="{StaticResource ResourceKey=MaterialDesignLabel}" Margin="20,20,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" FontSize="18"/>
+            <ComboBox x:Name="cmb_servsname" Margin="20,20,0,0" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="270" FontWeight="Bold" FontSize="14" Style="{StaticResource ResourceKey=MaterialDesignComboBox}" BorderBrush="Black" Background="#d8ded9" Foreground="Black"  />
+            <Button x:Name="btn_update" Content="Update" FontWeight="Bold" FontSize="18"  Style="{StaticResource MaterialDesignRaisedLightButton}" Height="40" Width="170" Margin="40,-790,0,0" Click="btn_update_Click" />
+            <Label x:Name="lbl_sfamname" Content="Search by Family :" Style="{StaticResource ResourceKey=MaterialDesignLabel}" Margin="-620,75,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" FontSize="18"/>
+            <TextBox x:Name="Sfamname" Margin="-430,75,0,0" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="240" FontWeight="Bold" FontSize="14" Style="{StaticResource ResourceKey=MaterialDesignTextBox}" BorderBrush="Black" Background="#d8ded9" Foreground="Black" TextChanged="Sfamname_TextChanged" />
+            <Label x:Name="lbl_sname" Content="Search by Member :" Style="{StaticResource ResourceKey=MaterialDesignLabel}" Margin="-620,120,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" FontSize="18"/>
+            <TextBox x:Name="Smemname" Margin="-430,120,0,0" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="240" FontWeight="Bold" FontSize="14" Style="{StaticResource ResourceKey=MaterialDesignTextBox}" BorderBrush="Black" Background="#d8ded9" Foreground="Black" TextChanged="Smemname_TextChanged"/>
+            <Label x:Name="lbl_ncName" Content="Search by New Comer Name :" Style="{StaticResource ResourceKey=MaterialDesignLabel}" Margin="-100,75,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" FontSize="18"/>
+            <TextBox x:Name="txt_ncName" Margin="100,75,0,0" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="240" FontWeight="Bold" FontSize="14" Style="{StaticResource ResourceKey=MaterialDesignTextBox}" BorderBrush="Black" Background="#d8ded9" Foreground="Black" TextChanged="txt_ncName_TextChanged" />
+            <DatePicker x:Name="M_datepicker" Margin="50,20,0,0" IsEnabled="False" FontWeight="Bold" FontSize="18" BorderThickness="2" HorizontalAlignment="Left"  VerticalAlignment="Top" Height="38" Width="240" Background="Black" />
+
+            <DataGrid x:Name="datagrid" IsReadOnly="True" HorizontalAlignment="Left" Height="393" Margin="-1380,180,0,0" VerticalAlignment="Top" Width="320" SelectionChanged="datagrid_SelectionChanged" />
+            <DataGrid x:Name="datagridnewcom" IsReadOnly="True" HorizontalAlignment="Left" Height="393" Margin="-750,160,0,0" VerticalAlignment="Top" Width="340" SelectionChanged="datagridnewcom_SelectionChanged" />
+            <Button x:Name="btn_addNewCom" Content="+ Add New Comer" FontWeight="Bold"  FontSize="18"  Style="{StaticResource MaterialDesignRaisedLightButton}" Height="40" Width="200" Margin="-420,-580,0,0" Click="btn_addNewCom_Click" />
+
+            <Label x:Name="lbl_selmember"  Content="Selected Member is :" HorizontalAlignment="Left" Margin="-1400,580,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold"/>
+            <Label x:Name="lbl_selectedMember" Content="" HorizontalAlignment="Left" Margin="-1150,580,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold"/>
+            <Label x:Name="lbl_selmem"  Content="Member ID is :" HorizontalAlignment="Left" Margin="-1400,610,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold"/>
+            <Label x:Name="lbl_selectedMemberID" Content="" HorizontalAlignment="Left" Margin="-1150,610,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold"/>
+
+            <Label x:Name="lbl_selNewCom"  Content="Selected New Comer is :" HorizontalAlignment="Left" Margin="-790,550,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold"/>
+            <Label x:Name="lbl_selectNewComer" Content="" HorizontalAlignment="Left" Margin="-560,550,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold"/>
+            <Label x:Name="lbl_selNewComID"  Content="New Comer ID is :" HorizontalAlignment="Left" Margin="-790,590,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold"/>
+            <Label x:Name="lbl_selNewComerID" Content="" HorizontalAlignment="Left" Margin="-560,590,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold"/>
+
+
+            <Label x:Name="lbl_totcountat" Content="Attended Count :" HorizontalAlignment="Left" Margin="-1400,640,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold"/>
+            <TextBox x:Name="txt_totcount" Margin="-1150,640,0,0" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" FontWeight="Bold" FontSize="14" Style="{StaticResource ResourceKey=MaterialDesignTextBox}" BorderBrush="Black" Background="#d8ded9" Foreground="Black" IsEnabled="False"/>
+            <Label x:Name="lbl_unknownstatus" Content="Unknown Status :" HorizontalAlignment="Left" Margin="-1400,670,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold"/>
+            <TextBox x:Name="txt_unknownstatus"  Margin="-1150,670,0,0" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" FontWeight="Bold" FontSize="14" Style="{StaticResource ResourceKey=MaterialDesignTextBox}" BorderBrush="Black" Background="#d8ded9" Foreground="Black" IsEnabled="False"/>
+
+            <Label x:Name="lbl_totabcount" Content="Absentees Count :" HorizontalAlignment="Left" Margin="-1400,700,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold"/>
+            <TextBox x:Name="txt_totabcount" Margin="-1150,700,0,0" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" FontWeight="Bold" FontSize="14" Style="{StaticResource ResourceKey=MaterialDesignTextBox}" BorderBrush="Black" Background="#d8ded9" Foreground="Black" IsEnabled="False" />
+
+            <Label x:Name="lbl_totNCcountat" Content="New Comers Attended Count :" HorizontalAlignment="Left" Margin="-790,630,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold"/>
+            <TextBox x:Name="txt_totNCcount" Margin="-500,630,0,0" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" FontWeight="Bold" FontSize="14" Style="{StaticResource ResourceKey=MaterialDesignTextBox}" BorderBrush="Black" Background="#d8ded9" Foreground="Black" IsEnabled="False"  />
+            <Label x:Name="lbl_totUkNC" Content="Unknown Status NC :" HorizontalAlignment="Left" Margin="-790,670,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold"/>
+            <TextBox x:Name="txt_totukNC" Margin="-500,670,0,0" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" FontWeight="Bold" FontSize="14" Style="{StaticResource ResourceKey=MaterialDesignTextBox}" BorderBrush="Black" Background="#d8ded9" Foreground="Black" IsEnabled="False"  />
+
+            <Label x:Name="lbl_totabNCcount" Content="New Comers Absentees Count :" HorizontalAlignment="Left" Margin="-790,710,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold"/>
+            <TextBox x:Name="txt_totabNCcount" Margin="-500,710,0,0" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" FontWeight="Bold" FontSize="14" Style="{StaticResource ResourceKey=MaterialDesignTextBox}" BorderBrush="Black" Background="#d8ded9" Foreground="Black" IsEnabled="False"  />
+
+            <Label x:Name="lbl_groscountat" Content="Total Attended Count :" HorizontalAlignment="Left" Margin="-1100,750,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold"/>
+            <TextBox x:Name="txt_groscount" Margin="-880,750,0,0" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" FontWeight="Bold" FontSize="14" Style="{StaticResource ResourceKey=MaterialDesignTextBox}" BorderBrush="Black" Background="#d8ded9" Foreground="Black" IsEnabled="False" />
+            <Label x:Name="lbl_grosabcount" Content="Total Absentees Count :" HorizontalAlignment="Left" Margin="-1100,790,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold"/>
+            <TextBox x:Name="txt_grossabcount" Margin="-880,790,0,0" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" FontWeight="Bold" FontSize="14" Style="{StaticResource ResourceKey=MaterialDesignTextBox}" BorderBrush="Black" Background="#d8ded9" Foreground="Black" IsEnabled="False" />
+
+
+            <Label x:Name="ncname" Content="New Comer Name" Style="{StaticResource ResourceKey=MaterialDesignLabel}" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Margin="-350,180,0,0"/>
+            <Label x:Name="nctpno" Content="New Comer TP No" Style="{StaticResource ResourceKey=MaterialDesignLabel}" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Margin="-350,220,0,0"/>
+            <Label x:Name="ncaddress" Content="New Comer Address" Style="{StaticResource ResourceKey=MaterialDesignLabel}" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Margin="-350,260,0,0"/>
+            <Label x:Name="ncfamname" Content="New Comer Family Name" Style="{StaticResource ResourceKey=MaterialDesignLabel}" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Margin="-350,300,0,0"/>
+            <Label x:Name="ncdateofvisit" Content="Date Of Visit" Style="{StaticResource ResourceKey=MaterialDesignLabel}" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Margin="-350,340,0,0"/>
+
+            <Label x:Name="ncid" Content="New Comer ID" Style="{StaticResource ResourceKey=MaterialDesignLabel}" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Margin="-350,380,0,0"/>
+
+            <TextBox x:Name="txt_NCname" HorizontalAlignment="Left" Height="31" Margin="-120,180,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="240" FontWeight="Bold" FontSize="14" Style="{StaticResource ResourceKey=MaterialDesignTextBox}" BorderBrush="Black" Background="#d8ded9" />
+            <TextBox x:Name="txt_NCTPNo" HorizontalAlignment="Left" Height="31" Margin="-240,220,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="240" FontWeight="Bold" FontSize="14" Style="{StaticResource ResourceKey=MaterialDesignTextBox}" BorderBrush="Black" Background="#d8ded9"/>
+            <TextBox x:Name="txt_NCadd" HorizontalAlignment="Left" Height="31" Margin="-240,260,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="240" FontWeight="Bold" FontSize="14" Style="{StaticResource ResourceKey=MaterialDesignTextBox}" BorderBrush="Black" Background="#d8ded9"/>
+            <TextBox x:Name="txt_NCFamName" HorizontalAlignment="Left" Height="31" Margin="-240,300,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="240" FontWeight="Bold" FontSize="14" Style="{StaticResource ResourceKey=MaterialDesignTextBox}" BorderBrush="Black" Background="#d8ded9"/>
+            <DatePicker x:Name="Newcom_datepicker" IsEnabled="False" Margin="-240,335,0,0"  FontWeight="Bold" FontSize="18" BorderThickness="2" HorizontalAlignment="Left"  VerticalAlignment="Top" Height="38" Width="240" Background="Black" />
+
+            <TextBox x:Name="txt_NCno" IsReadOnly="True" HorizontalAlignment="Left" Height="31" Margin="-240,380,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="180" FontWeight="Bold" FontSize="14" Style="{StaticResource ResourceKey=MaterialDesignTextBox}" BorderBrush="Black" Background="#d8ded9" />
+
+            <Button x:Name="btn_Save" Content="Save" FontWeight="Bold"  FontSize="18"  Style="{StaticResource MaterialDesignRaisedLightButton}" Height="40" Width="170" Margin="-600,100,0,0" Click="btn_Save_Click" />
+            <Button x:Name="btn_Cancel" Content="Cancel" FontWeight="Bold" FontSize="18"  Style="{StaticResource MaterialDesignRaisedLightButton}" Height="40" Width="170" Margin="-200,100,0,0" Click="btn_Cancel_Click" />
+            <Button x:Name="btn_newCom" Content="New Comer Attended" FontWeight="Bold" FontSize="18"  Style="{StaticResource MaterialDesignRaisedLightButton}" Height="40" Width="220" Margin="-800,240,0,0" Click="btn_newCom_Click"  />
+            <Button x:Name="btn_NewComAbsent" Content="New ComerAbsent" FontWeight="Bold" FontSize="18"  Style="{StaticResource MaterialDesignRaisedLightButton}" Height="40" Width="220" Margin="-800,340,0,0" Background="#FFEE2818" Click="btn_NewComAbsent_Click"    />
+
+            <Button x:Name="btn_view" Content="View Attendance" FontWeight="Bold" FontSize="18"  Style="{StaticResource MaterialDesignRaisedLightButton}" Height="40" Width="190" Margin="-2000,20,0,0" Click="btn_view_Click"  />
+
+            <Button x:Name="btn_attend" Content="Attended" FontWeight="Bold" FontSize="18"  Style="{StaticResource MaterialDesignRaisedLightButton}" Height="40" Width="170" Margin="-2000,250,0,0" Click="btn_attend_Click"  />
+            <Button x:Name="btn_EndServ" Content="End Service" FontWeight="Bold" FontSize="18"  Style="{StaticResource MaterialDesignRaisedLightButton}" Height="40" Width="170" Margin="-400,700,0,0" Click="btn_EndServ_Click"  />
+            <Button x:Name="btn_Absent" Content="Absent" FontWeight="Bold" FontSize="18"  Style="{StaticResource MaterialDesignRaisedLightButton}" Height="40" Width="170" Margin="-2000,350,0,0" Background="#FFEE2818" Click="btn_Absent_Click"   />
+
+            <Button x:Name="btn_close" Content="Close" FontWeight="Bold" FontSize="18"  Style="{StaticResource MaterialDesignRaisedLightButton}" Height="40" Width="120" Margin="-500,700,0,0" Click="btn_close_Click" />
+            <TextBox x:Name="txt_SrvId" Margin="-720,20,0,0"  IsReadOnly="True" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="190" FontWeight="Bold" FontSize="14" Style="{StaticResource ResourceKey=MaterialDesignTextBox}" BorderBrush="Black" Background="#d8ded9" Foreground="Black"  />
+
+
+        </StackPanel>
+    </Grid>
+</Window>

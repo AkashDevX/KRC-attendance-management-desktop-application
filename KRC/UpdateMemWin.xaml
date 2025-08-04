@@ -1,0 +1,96 @@
+﻿<Window x:Class="KRC.UpdateMemWin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KRC"
+        mc:Ignorable="d"
+        Title="UpdateMemWin" Background="#FF5C99D6" ResizeMode="NoResize"
+         WindowStyle="None" WindowState="Maximized" Icon="Icons/KRC.ico"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        >
+    <Grid Loaded="Grid_Loaded">
+        <StackPanel Margin="0,10,0,0" >
+
+            <Label Content="Update KRC Member Details " Style="{StaticResource ResourceKey=MaterialDesignLabel}" FontFamily="Century Gothic" HorizontalAlignment="Left" Margin="25,-10,0,0" VerticalAlignment="Top" FontSize="24" FontWeight="Bold"/>
+            <Label x:Name="Srch_by_name" Content="Search by Name :" Style="{StaticResource ResourceKey=MaterialDesignLabel}" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Margin="25,10,0,0"/>
+            <TextBox x:Name="txt_srchname" Margin="200,-30,0,0"  HorizontalAlignment="Left" Height="31"  TextWrapping="Wrap" VerticalAlignment="Top" Width="180" FontWeight="Bold" FontSize="14" Style="{StaticResource ResourceKey=MaterialDesignTextBox}" BorderBrush="Black" Background="#d8ded9" TextChanged="txt_srchname_TextChanged" />
+
+            <DataGrid x:Name="datagrid" IsReadOnly="True" HorizontalAlignment="Left" Height="720" Margin="25,10,0,0" VerticalAlignment="Top" Width="600" SelectionChanged="datagrid_SelectionChanged"  />
+
+            <Label x:Name="lbl_mno" Content="Member ID" Style="{StaticResource ResourceKey=MaterialDesignLabel}" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Margin="630,-770,0,0"/>
+            <TextBox x:Name="txt_Mno" Margin="780,-770,0,0" IsReadOnly="True" HorizontalAlignment="Left" Height="31"  TextWrapping="Wrap" VerticalAlignment="Top" Width="180" FontWeight="Bold" FontSize="14" Style="{StaticResource ResourceKey=MaterialDesignTextBox}" BorderBrush="Black" Background="#d8ded9" />
+            <Label Content="Family ID" Style="{StaticResource ResourceKey=MaterialDesignLabel}" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Margin="630,-730,0,0"/>
+            <TextBox x:Name="txt_FamID"  HorizontalAlignment="Left" Height="31" Margin="780,-730,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="180" FontWeight="Bold" FontSize="14" Style="{StaticResource ResourceKey=MaterialDesignTextBox}" BorderBrush="Black" Background="#d8ded9"  />
+            <Label x:Name="lbl_fname" Content="First Name" Style="{StaticResource ResourceKey=MaterialDesignLabel}" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Margin="630,-690,0,0"/>
+            <TextBox x:Name="txt_MFname" Margin="780,-690,0,0" HorizontalAlignment="Left" Height="29" TextWrapping="Wrap" VerticalAlignment="Top" Width="180" FontWeight="Bold" FontSize="14" Style="{StaticResource ResourceKey=MaterialDesignTextBox}" BorderBrush="Black" Background="#d8ded9" />
+            <Label x:Name="lbl_lname" Content="Last Name " Style="{StaticResource ResourceKey=MaterialDesignLabel}" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Margin="630,-650,0,0"/>
+            <TextBox x:Name="txt_MLname" Margin="780,-650,0,0" HorizontalAlignment="Left" Height="29" TextWrapping="Wrap" VerticalAlignment="Top" Width="180" FontWeight="Bold" FontSize="14" Style="{StaticResource ResourceKey=MaterialDesignTextBox}" BorderBrush="Black" Background="#d8ded9" />
+            <Label x:Name="lbl_name" Content="Name " Style="{StaticResource ResourceKey=MaterialDesignLabel}" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Margin="630,-610,0,0"/>
+            <TextBox x:Name="txt_MName" Margin="780,-610,0,0" HorizontalAlignment="Left" Height="29" TextWrapping="Wrap" VerticalAlignment="Top" Width="180" FontWeight="Bold" FontSize="14" Style="{StaticResource ResourceKey=MaterialDesignTextBox}" BorderBrush="Black" Background="#d8ded9" />
+            <Label x:Name="lbl_nic" Content="NIC" Style="{StaticResource ResourceKey=MaterialDesignLabel}" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Margin="630,-570,0,0"/>
+            <TextBox x:Name="txt_MNIC" Margin="780,-570,0,0" HorizontalAlignment="Left" Height="29" TextWrapping="Wrap" VerticalAlignment="Top" Width="180" FontWeight="Bold" FontSize="14" Style="{StaticResource ResourceKey=MaterialDesignTextBox}" BorderBrush="Black" Background="#d8ded9"   />
+
+            <Label x:Name="lbl_gndr" Content="Gender" Style="{StaticResource ResourceKey=MaterialDesignLabel}" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Margin="630,-530,0,0"/>
+            <RadioButton x:Name="radioB_Male" Style="{StaticResource MaterialDesignAccentRadioButton}" Content="Male" FontWeight="Bold" GroupName="Gender" VerticalAlignment="Top" Margin="780,-522,0,0" />
+            <RadioButton x:Name="radioB_Female" Style="{StaticResource MaterialDesignAccentRadioButton}" Content="Female" FontWeight="Bold" GroupName="Gender" VerticalAlignment="Top" Margin="880,-522,0,0" />
+            <Label x:Name="lbl_tno1" Content="Telephone no 1" Style="{StaticResource ResourceKey=MaterialDesignLabel}" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Margin="630,-490,0,0" />
+            <TextBox x:Name="txt_tno1" Margin="780,-490,0,0" HorizontalAlignment="Left" Height="31"  TextWrapping="Wrap" VerticalAlignment="Top" Width="180" FontWeight="Bold" FontSize="14" Style="{StaticResource ResourceKey=MaterialDesignTextBox}" BorderBrush="Black" Background="#d8ded9"  />
+            <Label x:Name="lbl_tno2" Content="Telephone no 2" Style="{StaticResource ResourceKey=MaterialDesignLabel}" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Margin="630,-450,0,0"/>
+            <TextBox x:Name="txt_tno2" Margin="780,-450,0,0" HorizontalAlignment="Left" Height="31"  TextWrapping="Wrap" VerticalAlignment="Top" Width="180" FontWeight="Bold" FontSize="14" Style="{StaticResource ResourceKey=MaterialDesignTextBox}" BorderBrush="Black" Background="#d8ded9"  />
+            <Label x:Name="lbl_ric" Content="Role in Church" Style="{StaticResource ResourceKey=MaterialDesignLabel}" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Margin="630,-410,0,0"/>
+            <ComboBox x:Name="txt_ric" Margin="780,-410,0,0" HorizontalAlignment="Left" Height="31"   VerticalAlignment="Top" Width="180" FontWeight="Bold" FontSize="14" Style="{StaticResource ResourceKey=MaterialDesignComboBox}" BorderBrush="Black" Background="#d8ded9"  />
+            <Label x:Name="lbl_pcl" Content="PCL" Style="{StaticResource ResourceKey=MaterialDesignLabel}" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Margin="630,-370,0,0"/>
+            <TextBox x:Name="txt_MPCL" Margin="780,-370,0,0" HorizontalAlignment="Left" Height="29" TextWrapping="Wrap" VerticalAlignment="Top" Width="180" FontWeight="Bold" FontSize="14" Style="{StaticResource ResourceKey=MaterialDesignTextBox}" BorderBrush="Black" Background="#d8ded9" />
+            <Label x:Name="lbl_Dob" Content="DOB " Style="{StaticResource ResourceKey=MaterialDesignLabel}" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Margin="630,-330,0,0"/>
+            <DatePicker x:Name="M_datepicker" Margin="780,-330,0,0" FontWeight="Bold" FontSize="18" BorderThickness="2" HorizontalAlignment="Left"  VerticalAlignment="Top" Height="38" Width="240" Background="Black" />
+            <Label x:Name="lbl_bday" Content="Birth Day " Style="{StaticResource ResourceKey=MaterialDesignLabel}" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Margin="630,-290,0,0"/>
+            <TextBox x:Name="txt_Bday" Margin="780,-290,0,0" HorizontalAlignment="Left" Height="29" TextWrapping="Wrap" VerticalAlignment="Top" Width="180" FontWeight="Bold" FontSize="14" Style="{StaticResource ResourceKey=MaterialDesignTextBox}" BorderBrush="Black" Background="#d8ded9" />
+            <Label x:Name="lbl_bmonth" Content="Birth Month " Style="{StaticResource ResourceKey=MaterialDesignLabel}" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Margin="630,-250,0,0"/>
+            <TextBox x:Name="txt_BMonth" Margin="780,-250,0,0" HorizontalAlignment="Left" Height="29" TextWrapping="Wrap" VerticalAlignment="Top" Width="180" FontWeight="Bold" FontSize="14" Style="{StaticResource ResourceKey=MaterialDesignTextBox}" BorderBrush="Black" Background="#d8ded9" />
+            <Label x:Name="lbl_year" Content="Birth Year" Style="{StaticResource ResourceKey=MaterialDesignLabel}" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Margin="630,-210,0,0"/>
+            <TextBox x:Name="txt_Byear" Margin="780,-210,0,0" HorizontalAlignment="Left" Height="29" TextWrapping="Wrap" VerticalAlignment="Top" Width="180" FontWeight="Bold" FontSize="14" Style="{StaticResource ResourceKey=MaterialDesignTextBox}" BorderBrush="Black" Background="#d8ded9" />
+            <Label x:Name="lbl_age" Content="Age" Style="{StaticResource ResourceKey=MaterialDesignLabel}" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Margin="630,-170,0,0"/>
+            <TextBox x:Name="txt_MAge" Margin="780,-170,0,0" HorizontalAlignment="Left" Height="29" TextWrapping="Wrap" VerticalAlignment="Top" Width="180" FontWeight="Bold" FontSize="14" Style="{StaticResource ResourceKey=MaterialDesignTextBox}" BorderBrush="Black" Background="#d8ded9" />
+            <Label x:Name="lbl_address" Content="Address" Style="{StaticResource ResourceKey=MaterialDesignLabel}" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Margin="630,-130,0,0"/>
+            <TextBox x:Name="txt_MAddr" Margin="780,-130,0,0" HorizontalAlignment="Left" Height="29" TextWrapping="Wrap" VerticalAlignment="Top" Width="600" FontWeight="Bold" FontSize="14" Style="{StaticResource ResourceKey=MaterialDesignTextBox}" BorderBrush="Black" Background="#d8ded9"  />
+            <Label x:Name="lbl_htown" Content="Home Town" Style="{StaticResource ResourceKey=MaterialDesignLabel}" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Margin="630,-90,0,0"/>
+            <TextBox x:Name="txt_MHtown" Margin="780,-90,0,0" HorizontalAlignment="Left" Height="29" TextWrapping="Wrap" VerticalAlignment="Top" Width="180" FontWeight="Bold" FontSize="14" Style="{StaticResource ResourceKey=MaterialDesignTextBox}" BorderBrush="Black" Background="#d8ded9"  />
+            <Label Content="E-Mail" Style="{StaticResource ResourceKey=MaterialDesignLabel}" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Margin="630,-50,0,0"/>
+            <TextBox x:Name="txt_Memail" Margin="780,-50,0,0" HorizontalAlignment="Left" Height="29" TextWrapping="Wrap" VerticalAlignment="Top" Width="270" FontWeight="Bold" FontSize="14" Style="{StaticResource ResourceKey=MaterialDesignTextBox}" BorderBrush="Black" Background="#d8ded9" />
+
+            <Label Content="Profession" Style="{StaticResource ResourceKey=MaterialDesignLabel}" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Margin="990,-795,0,0"/>
+            <TextBox x:Name="txt_MProf" Margin="1230,-795,0,0" HorizontalAlignment="Left" Height="29" TextWrapping="Wrap" VerticalAlignment="Top" Width="180" FontWeight="Bold" FontSize="14" Style="{StaticResource ResourceKey=MaterialDesignTextBox}" BorderBrush="Black" Background="#d8ded9" />
+            <Label Content="Maritual Status" Style="{StaticResource ResourceKey=MaterialDesignLabel}" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Margin="990,-750,0,0"/>
+            <ComboBox x:Name="cmb_MMatStat" Margin="1230,-750,0,0" HorizontalAlignment="Left" Height="29"  VerticalAlignment="Top" Width="180" FontWeight="Bold" FontSize="14" Style="{StaticResource ResourceKey=MaterialDesignComboBox}" BorderBrush="Black" Background="#d8ded9">
+            <ComboBoxItem Content="Single"/>
+            <ComboBoxItem Content="Married"/>
+            <ComboBoxItem Content="Others" />
+            </ComboBox>
+            <Label x:Name="lbl_nos" Content="Name of Spouse" Style="{StaticResource ResourceKey=MaterialDesignLabel}" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Margin="990,-710,0,0"/>
+            <TextBox x:Name="txt_MNofSpou" Margin="1230,-710,0,0" HorizontalAlignment="Left" Height="29" TextWrapping="Wrap" VerticalAlignment="Top" Width="180" FontWeight="Bold" FontSize="14" Style="{StaticResource ResourceKey=MaterialDesignTextBox}" BorderBrush="Black" Background="#d8ded9" />
+            <Label x:Name="lbl_Dpicker" Content="Wedding Anniversary" Style="{StaticResource ResourceKey=MaterialDesignLabel}" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Margin="990,-660,0,0"/>
+            <DatePicker x:Name="WAnniv_datepicker" Margin="1230,-670,0,0" FontWeight="Bold" FontSize="18" BorderThickness="2" HorizontalAlignment="Left"  VerticalAlignment="Top" Height="38" Width="240" Background="Black"  />
+            <Label x:Name="lblannivday" Content="Anniversary Day" Style="{StaticResource ResourceKey=MaterialDesignLabel}" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Margin="990,-620,0,0"/>
+            <TextBox x:Name="txt_AnnivDay" Margin="1230,-620,0,0" HorizontalAlignment="Left" Height="29" TextWrapping="Wrap" VerticalAlignment="Top" Width="180" FontWeight="Bold" FontSize="14" Style="{StaticResource ResourceKey=MaterialDesignTextBox}" BorderBrush="Black" Background="#d8ded9" />
+            <Label x:Name="lblannivmon" Content="Anniversary Month" Style="{StaticResource ResourceKey=MaterialDesignLabel}" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Margin="990,-580,0,0"/>
+            <TextBox x:Name="txt_MAnnivMonth" Margin="1230,-580,0,0" HorizontalAlignment="Left" Height="29" TextWrapping="Wrap" VerticalAlignment="Top" Width="180" FontWeight="Bold" FontSize="14" Style="{StaticResource ResourceKey=MaterialDesignTextBox}" BorderBrush="Black" Background="#d8ded9" />
+            <Label Name="lbl_anivyear" Content="Anniversary Year" Style="{StaticResource ResourceKey=MaterialDesignLabel}" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Margin="990,-545,0,0"/>
+            <TextBox x:Name="txt_MAnnivYear" Margin="1230,-545,0,0" HorizontalAlignment="Left" Height="29" TextWrapping="Wrap" VerticalAlignment="Top" Width="180" FontWeight="Bold" FontSize="14" Style="{StaticResource ResourceKey=MaterialDesignTextBox}" BorderBrush="Black" Background="#d8ded9" />
+            <Label x:Name="lblannivyears" Content="Years" Style="{StaticResource ResourceKey=MaterialDesignLabel}" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Margin="990,-510,0,0"/>
+            <TextBox x:Name="txt_MYears" Margin="1230,-510,0,0" HorizontalAlignment="Left" Height="29" TextWrapping="Wrap" VerticalAlignment="Top" Width="180" FontWeight="Bold" FontSize="14" Style="{StaticResource ResourceKey=MaterialDesignTextBox}" BorderBrush="Black" Background="#d8ded9" />
+            <Label Content="Church" Style="{StaticResource ResourceKey=MaterialDesignLabel}" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Margin="990,-475,0,0"/>
+            <TextBox x:Name="txt_MChurch" Text="KRC GLORIOUS CHURCH-MATTAKULIYA" Margin="1230,-475,0,0" HorizontalAlignment="Left" Height="29" TextWrapping="Wrap" VerticalAlignment="Top" Width="290" FontWeight="Bold" FontSize="14" Style="{StaticResource ResourceKey=MaterialDesignTextBox}" BorderBrush="Black" Background="#d8ded9" />
+            <Label Content="Associate pastor" Style="{StaticResource ResourceKey=MaterialDesignLabel}" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Margin="990,-440,0,0"/>
+            <TextBox x:Name="txt_MAsPas" Text="Andrew Sundersingh" Margin="1230,-440,0,0" HorizontalAlignment="Left" Height="29" TextWrapping="Wrap" VerticalAlignment="Top" Width="290" FontWeight="Bold" FontSize="14" Style="{StaticResource ResourceKey=MaterialDesignTextBox}" BorderBrush="Black" Background="#d8ded9" />
+            <Label Content="Senior Overseeing Pastor" Style="{StaticResource ResourceKey=MaterialDesignLabel}" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Margin="990,-405,0,0"/>
+            <TextBox x:Name="txt_MSoPas" Text="Shekar Coomaraswamy" Margin="1230,-405,0,0" HorizontalAlignment="Left" Height="29" TextWrapping="Wrap" VerticalAlignment="Top" Width="290" FontWeight="Bold" FontSize="14" Style="{StaticResource ResourceKey=MaterialDesignTextBox}" BorderBrush="Black" Background="#d8ded9" />
+            <Label Content="Senior Pastor" Style="{StaticResource ResourceKey=MaterialDesignLabel}" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Margin="990,-375,0,0"/>
+            <TextBox x:Name="txt_MSpas"  Text="Jerome Fernando" Margin="1230,-370,0,0" HorizontalAlignment="Left" Height="29" TextWrapping="Wrap" VerticalAlignment="Top" Width="290" FontWeight="Bold" FontSize="14" Style="{StaticResource ResourceKey=MaterialDesignTextBox}" BorderBrush="Black" Background="#d8ded9" />
+            <Button x:Name="btn_update" Content="Update" Width="100"  Style="{StaticResource MaterialDesignRaisedLightButton}" FontWeight="Bold" Margin="700,-30,0,0" Click="btn_update_Click"/>
+            <Button x:Name="btn_delete" Content="Delete" HorizontalAlignment="Left" Margin="1180,-30,0,0" VerticalAlignment="Top" Width="100" Height="30" FontWeight="Bold" FontSize="18" Style="{StaticResource MaterialDesignRaisedLightButton}" Click="btn_delete_Click" />
+            <Button x:Name="btn_cancel" Content="Cancel" Width="100"  Style="{StaticResource MaterialDesignRaisedLightButton}" FontWeight="Bold" Margin="1180,-30,0,0" Click="btn_cancel_Click"/>
+
+        </StackPanel>
+    </Grid>
+</Window>

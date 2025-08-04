@@ -1,0 +1,52 @@
+﻿<Window x:Class="KRC.ViewMem"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KRC"
+        mc:Ignorable="d"
+        Title="ViewMem" Background="#FF5C99D6" ResizeMode="NoResize"
+         WindowStyle="None" WindowState="Maximized" Icon="Icons/KRC.ico"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        >
+    <Grid Loaded="Grid_Loaded">
+        <StackPanel>
+            <Label x:Name="Srch_by_name" Content="Search by Name :" Style="{StaticResource ResourceKey=MaterialDesignLabel}" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Margin="25,10,0,0"/>
+            <TextBox x:Name="txt_srchname" Margin="200,-30,0,0"  HorizontalAlignment="Left" Height="31"  TextWrapping="Wrap" VerticalAlignment="Top" Width="180" FontWeight="Bold" FontSize="14" Style="{StaticResource ResourceKey=MaterialDesignTextBox}" BorderBrush="Black" Background="#d8ded9" TextChanged="txt_srchname_TextChanged" />
+
+            <DataGrid x:Name="datagrid" IsReadOnly="True" HorizontalAlignment="Left" Height="400" Margin="10,20,-130,0" VerticalAlignment="Top" Width="1510"  />
+            <Label Content="Total Members Count :" Margin="0,150,0,0" Style="{StaticResource ResourceKey=MaterialDesignLabel}" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" />
+            <TextBox x:Name="txt_TotMemCount" IsReadOnly="True" Margin="220,-30,0,0" HorizontalAlignment="Left" Height="31" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" FontWeight="Bold" FontSize="14" Style="{StaticResource ResourceKey=MaterialDesignTextBox}" BorderBrush="Black" Background="#d8ded9"/>
+            <Label Content="Total Family Count :" Style="{StaticResource ResourceKey=MaterialDesignLabel}" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" />
+            <TextBox x:Name="txt_totFamCount" Margin="220,-30,0,0" IsReadOnly="True" HorizontalAlignment="Left" Height="31" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" FontWeight="Bold" FontSize="14" Style="{StaticResource ResourceKey=MaterialDesignTextBox}" BorderBrush="Black" Background="#d8ded9"/>
+
+            <Label Content="Select Role :" Style="{StaticResource ResourceKey=MaterialDesignLabel}" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" />
+            <ComboBox x:Name="cmb_role" Margin="220,-30,0,0" HorizontalAlignment="Left" Height="31"  VerticalAlignment="Top" Width="200" FontWeight="Bold" FontSize="14" Style="{StaticResource ResourceKey=MaterialDesignComboBox}" BorderBrush="Black" Background="#d8ded9" SelectionChanged="cmb_role_SelectionChanged"/>
+            <Label Content="Existing Role Count :" Style="{StaticResource ResourceKey=MaterialDesignLabel}" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" />
+            <TextBox x:Name="txt_Count" Margin="220,-30,0,0" IsReadOnly="True" HorizontalAlignment="Left" Height="31" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" FontWeight="Bold" FontSize="14" Style="{StaticResource ResourceKey=MaterialDesignTextBox}" BorderBrush="Black" Background="#d8ded9"/>
+            <Label Content="Filter by Birth Month:" Style="{StaticResource ResourceKey=MaterialDesignLabel}" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" />
+            <ComboBox x:Name="txt_bmonth" Margin="220,-30,0,0" IsReadOnly="True" HorizontalAlignment="Left" Height="31"  VerticalAlignment="Top" Width="200" FontWeight="Bold" FontSize="14" Style="{StaticResource ResourceKey=MaterialDesignComboBox}" BorderBrush="Black" Background="#d8ded9" SelectionChanged="txt_bmonth_SelectionChanged">
+                <ComboBoxItem Content="January"/>
+                <ComboBoxItem Content="February"/>
+                <ComboBoxItem Content="March" />
+                <ComboBoxItem Content="April"/>
+                <ComboBoxItem Content="May"/>
+                <ComboBoxItem Content="June" />
+                <ComboBoxItem Content="July"/>
+                <ComboBoxItem Content="August"/>
+                <ComboBoxItem Content="September" />
+                <ComboBoxItem Content="October"/>
+                <ComboBoxItem Content="November"/>
+                <ComboBoxItem Content="December" />
+            </ComboBox>
+            
+
+            <Button x:Name="btn_exporttoexcel" Content="Export to Excel" Width="200"  Style="{StaticResource MaterialDesignRaisedLightButton}" FontWeight="Bold" Margin="1180,-100,0,0" Click="btn_exporttoexcel_Click"  />
+            <Button x:Name="btn_cancel" Content="Close" Width="100"  Style="{StaticResource MaterialDesignRaisedLightButton}" FontWeight="Bold" Margin="1380,40,0,0" Click="btn_cancel_Click"/>
+            <Button x:Name="btn_clear" Content="Clear" Width="100"  Style="{StaticResource MaterialDesignRaisedLightButton}" FontWeight="Bold" Margin="1100,-35,0,0" Click="btn_clear_Click" />
+            <Button x:Name="btn_Viewsingleat" Content="View Single Member Attendance" Width="300"  Style="{StaticResource MaterialDesignRaisedLightButton}" FontWeight="Bold" Margin="1000,-655,0,0" Click="btn_Viewsingleat_Click"  />
+            <Button x:Name="btn_Viewatab" Content="View Attended/Not Attended" Width="300"  Style="{StaticResource MaterialDesignRaisedLightButton}" FontWeight="Bold" Margin="1000,-555,0,0" Click="btn_Viewatab_Click"  />
+
+        </StackPanel>
+    </Grid>
+</Window>

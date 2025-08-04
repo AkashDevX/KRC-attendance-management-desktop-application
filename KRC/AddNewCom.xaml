@@ -1,0 +1,38 @@
+﻿<Window x:Class="KRC.AddNewCom"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KRC"
+        mc:Ignorable="d"
+        Title="AddNewCom" Background="#FF5C99D6" ResizeMode="NoResize"
+         WindowStyle="None" d:DesignHeight="450" d:DesignWidth="800" WindowStartupLocation="CenterScreen" Icon="Icons/KRC.ico"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes">
+    <Grid Loaded="Grid_Loaded" >
+        <StackPanel Margin="0,10,0,81.6">
+            <Label Content="Add New Comer Details " Style="{StaticResource ResourceKey=MaterialDesignLabel}" FontFamily="Century Gothic" HorizontalAlignment="Left" Margin="150,-10,0,0" VerticalAlignment="Top" FontSize="24" FontWeight="Bold"/>
+            <Label Content="New Comer Name" Style="{StaticResource ResourceKey=MaterialDesignLabel}" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Margin="150,40,0,0"/>
+            <Label Content="New Comer TP No" Style="{StaticResource ResourceKey=MaterialDesignLabel}" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Margin="150,20,0,0"/>
+            <Label Content="New Comer Address" Style="{StaticResource ResourceKey=MaterialDesignLabel}" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Margin="150,20,0,0"/>
+            <Label Content="New Comer Family Name" Style="{StaticResource ResourceKey=MaterialDesignLabel}" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Margin="150,20,0,0"/>
+            <Label Content="Date Of Visit" Style="{StaticResource ResourceKey=MaterialDesignLabel}" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Margin="150,20,0,0"/>
+            <Label Content="Service Name" Style="{StaticResource ResourceKey=MaterialDesignLabel}" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Margin="150,20,0,0"/>
+
+            <Label Content="New Comer ID" Style="{StaticResource ResourceKey=MaterialDesignLabel}" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Margin="700,-240,0,0"/>
+            
+            <TextBox x:Name="txt_NCname" HorizontalAlignment="Left" Height="31" Margin="400,-288,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="240" FontWeight="Bold" FontSize="14" Style="{StaticResource ResourceKey=MaterialDesignTextBox}" BorderBrush="Black" Background="#d8ded9" />
+            <TextBox x:Name="txt_NCTPNo" HorizontalAlignment="Left" Height="31" Margin="400,-238,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="240" FontWeight="Bold" FontSize="14" Style="{StaticResource ResourceKey=MaterialDesignTextBox}" BorderBrush="Black" Background="#d8ded9"/>
+            <TextBox x:Name="txt_NCadd" HorizontalAlignment="Left" Height="31" Margin="400,-188,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="240" FontWeight="Bold" FontSize="14" Style="{StaticResource ResourceKey=MaterialDesignTextBox}" BorderBrush="Black" Background="#d8ded9"/>
+            <TextBox x:Name="txt_NCFamName" HorizontalAlignment="Left" Height="31" Margin="400,-138,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="240" FontWeight="Bold" FontSize="14" Style="{StaticResource ResourceKey=MaterialDesignTextBox}" BorderBrush="Black" Background="#d8ded9"/>
+            <DatePicker x:Name="M_datepicker" IsEnabled="False" Margin="400,-88,0,0"  FontWeight="Bold" FontSize="18" BorderThickness="2" HorizontalAlignment="Left"  VerticalAlignment="Top" Height="38" Width="240" Background="Black" />
+            <ComboBox x:Name="txt_NCServName" HorizontalAlignment="Left" Height="31" Margin="400,-38,0,0"  VerticalAlignment="Top" Width="270" FontWeight="Bold" FontSize="14" Style="{StaticResource ResourceKey=MaterialDesignComboBox}" BorderBrush="Black" Background="#d8ded9" DropDownClosed="txt_NCServName_DropDownClosed"  />
+
+            <TextBox x:Name="txt_NCno" IsReadOnly="True" HorizontalAlignment="Left" Height="31" Margin="850,-240,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="180" FontWeight="Bold" FontSize="14" Style="{StaticResource ResourceKey=MaterialDesignTextBox}" BorderBrush="Black" Background="#d8ded9" />
+            
+            <Button x:Name="btn_Save" Content="Save" FontWeight="Bold"  FontSize="18"  Style="{StaticResource MaterialDesignRaisedLightButton}" Height="40" Width="170" Margin="-200,40,0,0" Click="btn_Save_Click"/>
+            <Button x:Name="btn_Cancel" Content="Cancel" FontWeight="Bold" FontSize="18"  Style="{StaticResource MaterialDesignRaisedLightButton}" Height="40" Width="170" Margin="300,-40,0,0" Click="btn_Cancel_Click"/>
+            <Label x:Name="lbl_error" Content=""  Style="{StaticResource ResourceKey=MaterialDesignLabel}" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Margin="150,40,0,0"/>
+            
+        </StackPanel>
+    </Grid>
+</Window>

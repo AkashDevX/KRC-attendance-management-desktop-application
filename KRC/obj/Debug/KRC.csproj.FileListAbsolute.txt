@@ -1,0 +1,259 @@
+C:\Users\akash\source\repos\KRC\KRC\bin\Debug\KRC.exe.config
+C:\Users\akash\source\repos\KRC\KRC\bin\Debug\KRC.exe
+C:\Users\akash\source\repos\KRC\KRC\bin\Debug\KRC.pdb
+C:\Users\akash\source\repos\KRC\KRC\bin\Debug\BespokeFusion.dll
+C:\Users\akash\source\repos\KRC\KRC\bin\Debug\MaterialDesignColors.dll
+C:\Users\akash\source\repos\KRC\KRC\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\akash\source\repos\KRC\KRC\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\akash\source\repos\KRC\KRC\bin\Debug\MaterialDesignColors.pdb
+C:\Users\akash\source\repos\KRC\KRC\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\akash\source\repos\KRC\KRC\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\akash\source\repos\KRC\KRC\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\akash\source\repos\KRC\KRC\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\KRC.csproj.ResolveComReference.cache
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\AddChurchServicePage.g.cs
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\AddfamilyPage.g.cs
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\addmem.g.cs
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\AddNewCom.g.cs
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\AddPreachPage.g.cs
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\AddSession.g.cs
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\Existingsess.g.cs
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\LoginWindow.g.cs
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\MainWindow.g.cs
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\UpdateChurchServPage.g.cs
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\UpdatefamilyPage.g.cs
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\UpdateMemWin.g.cs
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\UpdateNewComPage.g.cs
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\UpdatePreacherPage.g.cs
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\UserControlAttendance.g.cs
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\UserControlChurch.g.cs
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\UserControlFamily.g.cs
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\UserControlHome.g.cs
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\UserControlMember.g.cs
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\UserControlNewComer.g.cs
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\UserControlPreacher.g.cs
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\ViewChuserv.g.cs
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\ViewFamilyPAge.g.cs
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\ViewMem.g.cs
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\ViewNewComPage.g.cs
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\ViewPreachPage.g.cs
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\viewsess.g.cs
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\App.g.cs
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\KRC_MarkupCompile.cache
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\KRC_MarkupCompile.lref
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\App.baml
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\AddChurchServicePage.baml
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\AddfamilyPage.baml
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\addmem.baml
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\AddNewCom.baml
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\AddPreachPage.baml
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\AddSession.baml
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\Existingsess.baml
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\LoginWindow.baml
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\MainWindow.baml
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\UpdateChurchServPage.baml
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\UpdatefamilyPage.baml
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\UpdateMemWin.baml
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\UpdateNewComPage.baml
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\UpdatePreacherPage.baml
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\UserControlAttendance.baml
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\UserControlChurch.baml
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\UserControlFamily.baml
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\UserControlHome.baml
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\UserControlMember.baml
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\UserControlNewComer.baml
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\UserControlPreacher.baml
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\ViewChuserv.baml
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\ViewFamilyPAge.baml
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\ViewMem.baml
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\ViewNewComPage.baml
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\ViewPreachPage.baml
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\viewsess.baml
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\KRC.g.resources
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\KRC.Properties.Resources.resources
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\KRC.csproj.GenerateResource.cache
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\KRC.csproj.CoreCompileInputs.cache
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\KRC.csproj.CopyComplete
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\KRC.exe
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\KRC.pdb
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\KRC.csprojAssemblyReference.cache
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\ViewSingleAtMem.g.cs
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\ViewSingleAtMem.baml
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\ViewSingleAtNC.g.cs
+C:\Users\akash\source\repos\KRC\KRC\obj\Debug\ViewSingleAtNC.baml
+E:\Visual Studio\KRC\KRC\bin\Debug\KRC.exe.config
+E:\Visual Studio\KRC\KRC\bin\Debug\KRC.exe
+E:\Visual Studio\KRC\KRC\bin\Debug\KRC.pdb
+E:\Visual Studio\KRC\KRC\bin\Debug\BespokeFusion.dll
+E:\Visual Studio\KRC\KRC\bin\Debug\MaterialDesignColors.dll
+E:\Visual Studio\KRC\KRC\bin\Debug\MaterialDesignThemes.Wpf.dll
+E:\Visual Studio\KRC\KRC\bin\Debug\Microsoft.Xaml.Behaviors.dll
+E:\Visual Studio\KRC\KRC\bin\Debug\MaterialDesignColors.pdb
+E:\Visual Studio\KRC\KRC\bin\Debug\MaterialDesignThemes.Wpf.pdb
+E:\Visual Studio\KRC\KRC\bin\Debug\MaterialDesignThemes.Wpf.xml
+E:\Visual Studio\KRC\KRC\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+E:\Visual Studio\KRC\KRC\bin\Debug\Microsoft.Xaml.Behaviors.xml
+E:\Visual Studio\KRC\KRC\obj\Debug\KRC.csproj.ResolveComReference.cache
+E:\Visual Studio\KRC\KRC\obj\Debug\AddChurchServicePage.g.cs
+E:\Visual Studio\KRC\KRC\obj\Debug\AddfamilyPage.g.cs
+E:\Visual Studio\KRC\KRC\obj\Debug\addmem.g.cs
+E:\Visual Studio\KRC\KRC\obj\Debug\AddNewCom.g.cs
+E:\Visual Studio\KRC\KRC\obj\Debug\AddPreachPage.g.cs
+E:\Visual Studio\KRC\KRC\obj\Debug\AddSession.g.cs
+E:\Visual Studio\KRC\KRC\obj\Debug\Existingsess.g.cs
+E:\Visual Studio\KRC\KRC\obj\Debug\LoginWindow.g.cs
+E:\Visual Studio\KRC\KRC\obj\Debug\MainWindow.g.cs
+E:\Visual Studio\KRC\KRC\obj\Debug\UpdateChurchServPage.g.cs
+E:\Visual Studio\KRC\KRC\obj\Debug\UpdatefamilyPage.g.cs
+E:\Visual Studio\KRC\KRC\obj\Debug\UpdateMemWin.g.cs
+E:\Visual Studio\KRC\KRC\obj\Debug\UpdateNewComPage.g.cs
+E:\Visual Studio\KRC\KRC\obj\Debug\UpdatePreacherPage.g.cs
+E:\Visual Studio\KRC\KRC\obj\Debug\UserControlAttendance.g.cs
+E:\Visual Studio\KRC\KRC\obj\Debug\UserControlChurch.g.cs
+E:\Visual Studio\KRC\KRC\obj\Debug\UserControlFamily.g.cs
+E:\Visual Studio\KRC\KRC\obj\Debug\UserControlHome.g.cs
+E:\Visual Studio\KRC\KRC\obj\Debug\UserControlMember.g.cs
+E:\Visual Studio\KRC\KRC\obj\Debug\UserControlNewComer.g.cs
+E:\Visual Studio\KRC\KRC\obj\Debug\UserControlPreacher.g.cs
+E:\Visual Studio\KRC\KRC\obj\Debug\ViewChuserv.g.cs
+E:\Visual Studio\KRC\KRC\obj\Debug\ViewFamilyPAge.g.cs
+E:\Visual Studio\KRC\KRC\obj\Debug\ViewMem.g.cs
+E:\Visual Studio\KRC\KRC\obj\Debug\ViewNewComPage.g.cs
+E:\Visual Studio\KRC\KRC\obj\Debug\ViewPreachPage.g.cs
+E:\Visual Studio\KRC\KRC\obj\Debug\viewsess.g.cs
+E:\Visual Studio\KRC\KRC\obj\Debug\ViewSingleAtMem.g.cs
+E:\Visual Studio\KRC\KRC\obj\Debug\ViewSingleAtNC.g.cs
+E:\Visual Studio\KRC\KRC\obj\Debug\App.g.cs
+E:\Visual Studio\KRC\KRC\obj\Debug\KRC_MarkupCompile.cache
+E:\Visual Studio\KRC\KRC\obj\Debug\KRC_MarkupCompile.lref
+E:\Visual Studio\KRC\KRC\obj\Debug\App.baml
+E:\Visual Studio\KRC\KRC\obj\Debug\AddChurchServicePage.baml
+E:\Visual Studio\KRC\KRC\obj\Debug\AddfamilyPage.baml
+E:\Visual Studio\KRC\KRC\obj\Debug\addmem.baml
+E:\Visual Studio\KRC\KRC\obj\Debug\AddNewCom.baml
+E:\Visual Studio\KRC\KRC\obj\Debug\AddPreachPage.baml
+E:\Visual Studio\KRC\KRC\obj\Debug\AddSession.baml
+E:\Visual Studio\KRC\KRC\obj\Debug\Existingsess.baml
+E:\Visual Studio\KRC\KRC\obj\Debug\LoginWindow.baml
+E:\Visual Studio\KRC\KRC\obj\Debug\MainWindow.baml
+E:\Visual Studio\KRC\KRC\obj\Debug\UpdateChurchServPage.baml
+E:\Visual Studio\KRC\KRC\obj\Debug\UpdatefamilyPage.baml
+E:\Visual Studio\KRC\KRC\obj\Debug\UpdateMemWin.baml
+E:\Visual Studio\KRC\KRC\obj\Debug\UpdateNewComPage.baml
+E:\Visual Studio\KRC\KRC\obj\Debug\UpdatePreacherPage.baml
+E:\Visual Studio\KRC\KRC\obj\Debug\UserControlAttendance.baml
+E:\Visual Studio\KRC\KRC\obj\Debug\UserControlChurch.baml
+E:\Visual Studio\KRC\KRC\obj\Debug\UserControlFamily.baml
+E:\Visual Studio\KRC\KRC\obj\Debug\UserControlHome.baml
+E:\Visual Studio\KRC\KRC\obj\Debug\UserControlMember.baml
+E:\Visual Studio\KRC\KRC\obj\Debug\UserControlNewComer.baml
+E:\Visual Studio\KRC\KRC\obj\Debug\UserControlPreacher.baml
+E:\Visual Studio\KRC\KRC\obj\Debug\ViewChuserv.baml
+E:\Visual Studio\KRC\KRC\obj\Debug\ViewFamilyPAge.baml
+E:\Visual Studio\KRC\KRC\obj\Debug\ViewMem.baml
+E:\Visual Studio\KRC\KRC\obj\Debug\ViewNewComPage.baml
+E:\Visual Studio\KRC\KRC\obj\Debug\ViewPreachPage.baml
+E:\Visual Studio\KRC\KRC\obj\Debug\viewsess.baml
+E:\Visual Studio\KRC\KRC\obj\Debug\ViewSingleAtMem.baml
+E:\Visual Studio\KRC\KRC\obj\Debug\ViewSingleAtNC.baml
+E:\Visual Studio\KRC\KRC\obj\Debug\KRC.g.resources
+E:\Visual Studio\KRC\KRC\obj\Debug\KRC.Properties.Resources.resources
+E:\Visual Studio\KRC\KRC\obj\Debug\KRC.csproj.GenerateResource.cache
+E:\Visual Studio\KRC\KRC\obj\Debug\KRC.csproj.CoreCompileInputs.cache
+E:\Visual Studio\KRC\KRC\obj\Debug\KRC.csproj.CopyComplete
+E:\Visual Studio\KRC\KRC\obj\Debug\KRC.exe
+E:\Visual Studio\KRC\KRC\obj\Debug\KRC.pdb
+D:\Visual Studio\KRC\KRC\obj\Debug\KRC.csproj.AssemblyReference.cache
+D:\Visual Studio\KRC\KRC\obj\Debug\KRC.csproj.SuggestedBindingRedirects.cache
+D:\Visual Studio\KRC\KRC\obj\Debug\KRC.csproj.ResolveComReference.cache
+D:\Visual Studio\KRC\KRC\obj\Debug\AddChurchServicePage.g.cs
+D:\Visual Studio\KRC\KRC\obj\Debug\AddfamilyPage.g.cs
+D:\Visual Studio\KRC\KRC\obj\Debug\addmem.g.cs
+D:\Visual Studio\KRC\KRC\obj\Debug\AddNewCom.g.cs
+D:\Visual Studio\KRC\KRC\obj\Debug\AddPreachPage.g.cs
+D:\Visual Studio\KRC\KRC\obj\Debug\AddSession.g.cs
+D:\Visual Studio\KRC\KRC\obj\Debug\Existingsess.g.cs
+D:\Visual Studio\KRC\KRC\obj\Debug\LoginWindow.g.cs
+D:\Visual Studio\KRC\KRC\obj\Debug\MainWindow.g.cs
+D:\Visual Studio\KRC\KRC\obj\Debug\UpdateChurchServPage.g.cs
+D:\Visual Studio\KRC\KRC\obj\Debug\UpdatefamilyPage.g.cs
+D:\Visual Studio\KRC\KRC\obj\Debug\UpdateMemWin.g.cs
+D:\Visual Studio\KRC\KRC\obj\Debug\UpdateNewComPage.g.cs
+D:\Visual Studio\KRC\KRC\obj\Debug\UpdatePreacherPage.g.cs
+D:\Visual Studio\KRC\KRC\obj\Debug\UserControlAttendance.g.cs
+D:\Visual Studio\KRC\KRC\obj\Debug\UserControlChurch.g.cs
+D:\Visual Studio\KRC\KRC\obj\Debug\UserControlFamily.g.cs
+D:\Visual Studio\KRC\KRC\obj\Debug\UserControlHome.g.cs
+D:\Visual Studio\KRC\KRC\obj\Debug\UserControlMember.g.cs
+D:\Visual Studio\KRC\KRC\obj\Debug\UserControlNewComer.g.cs
+D:\Visual Studio\KRC\KRC\obj\Debug\UserControlPreacher.g.cs
+D:\Visual Studio\KRC\KRC\obj\Debug\ViewChuserv.g.cs
+D:\Visual Studio\KRC\KRC\obj\Debug\ViewFamilyPAge.g.cs
+D:\Visual Studio\KRC\KRC\obj\Debug\ViewMem.g.cs
+D:\Visual Studio\KRC\KRC\obj\Debug\ViewNCATNA.g.cs
+D:\Visual Studio\KRC\KRC\obj\Debug\ViewNewComPage.g.cs
+D:\Visual Studio\KRC\KRC\obj\Debug\ViewPreachPage.g.cs
+D:\Visual Studio\KRC\KRC\obj\Debug\viewsess.g.cs
+D:\Visual Studio\KRC\KRC\obj\Debug\ViewSingleAtMem.g.cs
+D:\Visual Studio\KRC\KRC\obj\Debug\ViewSingleAtNC.g.cs
+D:\Visual Studio\KRC\KRC\obj\Debug\App.g.cs
+D:\Visual Studio\KRC\KRC\obj\Debug\KRC_MarkupCompile.cache
+D:\Visual Studio\KRC\KRC\obj\Debug\KRC_MarkupCompile.lref
+D:\Visual Studio\KRC\KRC\bin\Debug\KRC.exe.config
+D:\Visual Studio\KRC\KRC\bin\Debug\KRC.exe
+D:\Visual Studio\KRC\KRC\bin\Debug\KRC.pdb
+D:\Visual Studio\KRC\KRC\bin\Debug\BespokeFusion.dll
+D:\Visual Studio\KRC\KRC\bin\Debug\MaterialDesignColors.dll
+D:\Visual Studio\KRC\KRC\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\Visual Studio\KRC\KRC\bin\Debug\Microsoft.Xaml.Behaviors.dll
+D:\Visual Studio\KRC\KRC\bin\Debug\MaterialDesignColors.pdb
+D:\Visual Studio\KRC\KRC\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\Visual Studio\KRC\KRC\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\Visual Studio\KRC\KRC\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+D:\Visual Studio\KRC\KRC\bin\Debug\Microsoft.Xaml.Behaviors.xml
+D:\Visual Studio\KRC\KRC\obj\Debug\App.baml
+D:\Visual Studio\KRC\KRC\obj\Debug\AddChurchServicePage.baml
+D:\Visual Studio\KRC\KRC\obj\Debug\AddfamilyPage.baml
+D:\Visual Studio\KRC\KRC\obj\Debug\addmem.baml
+D:\Visual Studio\KRC\KRC\obj\Debug\AddNewCom.baml
+D:\Visual Studio\KRC\KRC\obj\Debug\AddPreachPage.baml
+D:\Visual Studio\KRC\KRC\obj\Debug\AddSession.baml
+D:\Visual Studio\KRC\KRC\obj\Debug\Existingsess.baml
+D:\Visual Studio\KRC\KRC\obj\Debug\LoginWindow.baml
+D:\Visual Studio\KRC\KRC\obj\Debug\MainWindow.baml
+D:\Visual Studio\KRC\KRC\obj\Debug\UpdateChurchServPage.baml
+D:\Visual Studio\KRC\KRC\obj\Debug\UpdatefamilyPage.baml
+D:\Visual Studio\KRC\KRC\obj\Debug\UpdateMemWin.baml
+D:\Visual Studio\KRC\KRC\obj\Debug\UpdateNewComPage.baml
+D:\Visual Studio\KRC\KRC\obj\Debug\UpdatePreacherPage.baml
+D:\Visual Studio\KRC\KRC\obj\Debug\UserControlAttendance.baml
+D:\Visual Studio\KRC\KRC\obj\Debug\UserControlChurch.baml
+D:\Visual Studio\KRC\KRC\obj\Debug\UserControlFamily.baml
+D:\Visual Studio\KRC\KRC\obj\Debug\UserControlHome.baml
+D:\Visual Studio\KRC\KRC\obj\Debug\UserControlMember.baml
+D:\Visual Studio\KRC\KRC\obj\Debug\UserControlNewComer.baml
+D:\Visual Studio\KRC\KRC\obj\Debug\UserControlPreacher.baml
+D:\Visual Studio\KRC\KRC\obj\Debug\ViewChuserv.baml
+D:\Visual Studio\KRC\KRC\obj\Debug\ViewFamilyPAge.baml
+D:\Visual Studio\KRC\KRC\obj\Debug\ViewMem.baml
+D:\Visual Studio\KRC\KRC\obj\Debug\ViewNCATNA.baml
+D:\Visual Studio\KRC\KRC\obj\Debug\ViewNewComPage.baml
+D:\Visual Studio\KRC\KRC\obj\Debug\ViewPreachPage.baml
+D:\Visual Studio\KRC\KRC\obj\Debug\viewsess.baml
+D:\Visual Studio\KRC\KRC\obj\Debug\ViewSingleAtMem.baml
+D:\Visual Studio\KRC\KRC\obj\Debug\ViewSingleAtNC.baml
+D:\Visual Studio\KRC\KRC\obj\Debug\KRC.g.resources
+D:\Visual Studio\KRC\KRC\obj\Debug\KRC.Properties.Resources.resources
+D:\Visual Studio\KRC\KRC\obj\Debug\KRC.csproj.GenerateResource.cache
+D:\Visual Studio\KRC\KRC\obj\Debug\KRC.csproj.CoreCompileInputs.cache
+D:\Visual Studio\KRC\KRC\obj\Debug\KRC.csproj.CopyComplete
+D:\Visual Studio\KRC\KRC\obj\Debug\KRC.exe
+D:\Visual Studio\KRC\KRC\obj\Debug\KRC.pdb
+D:\Visual Studio\KRC\KRC\obj\Debug\ViewMemATNTD.g.cs
+D:\Visual Studio\KRC\KRC\obj\Debug\ViewMemATNTD.baml
+E:\Visual Studio\KRC\KRC\obj\Debug\KRC.csproj.AssemblyReference.cache
+E:\Visual Studio\KRC\KRC\obj\Debug\KRC.csproj.SuggestedBindingRedirects.cache
+E:\Visual Studio\KRC\KRC\obj\Debug\ViewMemATNTD.g.cs
+E:\Visual Studio\KRC\KRC\obj\Debug\ViewNCATNA.g.cs
+E:\Visual Studio\KRC\KRC\obj\Debug\ViewMemATNTD.baml
+E:\Visual Studio\KRC\KRC\obj\Debug\ViewNCATNA.baml
